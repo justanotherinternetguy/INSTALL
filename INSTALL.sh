@@ -10,7 +10,7 @@ echo -e "${NC}Welcome to justanotherinternetguy's custom installer and config sc
 printf "${GREEN}Press enter to continue >> ${NC}"
 read ans
 
-sudo pacman -S github-cli corectrl psensor htop btop nvtop extra/jre17-openjdk neovim --noconfirm
+sudo pacman -S github-cli corectrl psensor htop btop nvtop extra/jre17-openjdk neovim hblock --noconfirm
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
@@ -27,3 +27,4 @@ yay -S android-studio webcord-bin --noconfirm
 
 git config --global user.name "justanotherinternetguy"
 git config --global user.email "hendryxu1@gmail.com"
+hblock
